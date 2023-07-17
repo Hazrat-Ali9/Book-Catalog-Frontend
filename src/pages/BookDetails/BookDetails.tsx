@@ -49,7 +49,7 @@ const BookDetails = () => {
               <div className="flex gap-x-2">
                 <h1 className="font-semibold text-xl">Rating:</h1>
                 <div className="rating mb-5">
-                  {[...Array(reviews)].map((star, i) => {
+                  {[...Array(reviews)].map((_star, i) => {
                     return (
                       <label key={i}>
                         <input
