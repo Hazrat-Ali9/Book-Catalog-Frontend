@@ -6,6 +6,9 @@ This is a simple book catalog app built with React and Redux. It uses the Books 
 
 If you are not Logged in, you will be redirected to the Login page. If you don't have an account, you can register a new one. after successful login, you will be redirected to the Home page.
 
+email: test@gmail.com
+password: 12345678
+
 ## Home Page
 
 The Home page contains a search bar where you can search for books. The search results will be displayed in a list.
