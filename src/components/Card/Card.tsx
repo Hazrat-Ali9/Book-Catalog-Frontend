@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { IBook } from "../../redux/features/book/book.interface";
-
+// Card js
 const Card = ({ book }: { book: IBook }) => {
   const { id, title, author, image, genre, publicationDate } = book || {};
 
