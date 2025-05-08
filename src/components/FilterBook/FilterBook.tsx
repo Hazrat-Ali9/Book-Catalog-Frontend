@@ -1,6 +1,6 @@
 import { Filter, filterChanged } from "../../redux/features/filter/filterSlice";
 import { useAppDispatch, useAppSelector } from "../../redux/features/hooks";
-
+// Filter book
 const FilterBook = () => {
   const { filter } = useAppSelector((state) => state.filter);
   const dispatch = useAppDispatch();
