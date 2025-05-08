@@ -1,3 +1,8 @@
+# ✈ Hazrat Ali
+
+# 🚁Programmer || Software Engineering
+
+
 ### Redux Book Catalog App
 
 This is a simple book catalog app built with React and Redux. It uses the Books API to search for books and display them in a list. The user can then add books to a list of favorites. Used RTK Query to fetch, delete, create, update data from the API and Redux Toolkit to manage the state.
