@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../redux/features/hooks";
 import { userLoggedOut } from "../../redux/features/auth/authSlice";
 import SearchInput from "../SearchInput/SearchInput";
-
+// Nabvar 
 const Navbar = () => {
   const { accessToken } = useAppSelector((state) => state.auth);
   const dispatch = useAppDispatch();
