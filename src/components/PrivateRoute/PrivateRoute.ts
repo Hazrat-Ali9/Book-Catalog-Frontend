@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import useAuth from "../../hooks/useAuth";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-
+// Private Route
 export default function PrivateRoute({ children }: { children: ReactNode }) {
   const isLoggedIn = useAuth();
   const navigate = useNavigate();
