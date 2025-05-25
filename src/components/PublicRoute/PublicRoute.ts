@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import { useEffect } from "react";
-
+// Public Route
 export default function PublicRoute({
   children,
 }: {
