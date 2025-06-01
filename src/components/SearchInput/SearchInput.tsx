@@ -2,7 +2,7 @@ import React from "react";
 import { searchTermChanged } from "../../redux/features/filter/filterSlice";
 import { useAppDispatch, useAppSelector } from "../../redux/features/hooks";
 import { useMatch, useNavigate } from "react-router-dom";
-
+// Search input 
 const SearchInput = () => {
   const { searchTerm } = useAppSelector((state) => state.filter);
   const dispatch = useAppDispatch();
