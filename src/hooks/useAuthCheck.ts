@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { userLoggedIn } from "../redux/features/auth/authSlice";
 import { useAppDispatch } from "../redux/features/hooks";
-
+// use auth check
 export default function useAuthCheck() {
   const dispatch = useAppDispatch();
   const [authChecked, setAuthChecked] = useState<boolean>(false);
