@@ -4,7 +4,7 @@ import { useAddBookMutation } from "../../redux/features/book/bookApi";
 import capitalizeFirstLetter from "../../utils/capitalizeFirstLetter";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-
+// add new book
 const AddNewBook = () => {
   const [title, setTitle] = useState<string>("");
   const [author, setAuthor] = useState<string>("");
