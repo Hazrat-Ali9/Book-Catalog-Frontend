@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { Link, useNavigate, useParams } from "react-router-dom";
 import toast from "react-hot-toast";
-
+// Book Details
 import {
   useDeleteBookMutation,
   useGetBookQuery,
