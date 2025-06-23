@@ -5,7 +5,7 @@ import { useEditBookMutation } from "../../redux/features/book/bookApi";
 import toast from "react-hot-toast";
 import capitalizeFirstLetter from "../../utils/capitalizeFirstLetter";
 import { useNavigate } from "react-router-dom";
-
+// edit book
 interface EditBookProps {
   id: string;
   title: string;
