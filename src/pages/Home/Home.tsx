@@ -2,7 +2,7 @@ import Card from "../../components/Card/Card";
 import FilterBook from "../../components/FilterBook/FilterBook";
 import { useGetBooksQuery } from "../../redux/features/book/bookApi";
 import { useAppSelector } from "../../redux/features/hooks";
-
+// Home tsx
 const Home = () => {
   const { filter, searchTerm } = useAppSelector((state) => state.filter);
   const { data, isLoading, isError } = useGetBooksQuery(searchTerm);
