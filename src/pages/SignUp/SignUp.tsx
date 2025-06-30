@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuthRegisterMutation } from "../../redux/features/auth/authApi";
 import { useState } from "react";
 import toast from "react-hot-toast";
-
+// sign up
 const SignUp = () => {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
