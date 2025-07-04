@@ -1,7 +1,7 @@
 export type IAuthLogin = {
   accessToken: string;
 };
-
+//auth inteface
 export type IUser = {
   id: string;
   name: string;
