@@ -2,7 +2,7 @@ import { IResponse } from "../../../types/response";
 import { apiSlice } from "../api/apiSlice";
 import { IAuth } from "../book/auth.interface";
 import { IAuthLogin } from "./auth.interface";
-
+// auth api
 export const authApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     authRegister: builder.mutation<IResponse<IAuth>, Partial<IAuth>>({
