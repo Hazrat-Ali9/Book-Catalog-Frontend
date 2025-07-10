@@ -1,6 +1,6 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { IAuthSlice } from "./auth.interface";
-
+// api slice
 const initialState: IAuthSlice = {
   accessToken: null,
 };
