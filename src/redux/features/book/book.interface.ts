@@ -7,3 +7,4 @@ export type IBook = {
   publicationDate: string;
   reviews: number;
 };
+// book interface 
