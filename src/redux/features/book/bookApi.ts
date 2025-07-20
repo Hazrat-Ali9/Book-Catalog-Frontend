@@ -1,7 +1,7 @@
 import { IResponse } from "../../../types/response";
 import { apiSlice } from "../api/apiSlice";
 import { IBook } from "./book.interface";
-
+// book api
 export const bookApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     getBooks: builder.query<IResponse<IBook[]>, string>({
